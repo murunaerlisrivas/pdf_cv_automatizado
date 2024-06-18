@@ -183,3 +183,17 @@ justify-content: center;
   margin-bottom: 30px;
   margin-top: 30px;
 }
+
+.skills-inactive{
+  display: none;
+}
+
+.li-inactive1{
+  display: none;
+}
+.li-inactive2{
+  display: none;
+}
+.li-inactive3{
+  display: none;
+}
