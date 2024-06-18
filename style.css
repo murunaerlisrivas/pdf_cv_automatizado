@@ -112,13 +112,13 @@ justify-content: center;
   margin: 0 auto;
   border-collapse: collapse;
   margin-bottom: 30px;
-  font-family:'Montserrat', sans-serif;
-  font-size:12px;
 }
 
 .feedbackTable th, .feedbackTable td {
   border: 0.5px solid #1a1919;
   padding: 10px;
+  font-family:'Montserrat', sans-serif;
+  font-size:12px;
 }
 .colorTable1{
   background-color: #bad3f7;
