@@ -13,7 +13,7 @@
 
 @page{
   size:A4;
-  margin:4cm 0 3cm 0;
+  margin:0;
   @top-left{
     content:element(header);
   }
@@ -27,10 +27,10 @@
 
 body{
   margin:0;
-  padding:1cm 2cm;
+  padding:0cm 1cm;
   color:var(--font-color);
   font-family:'Montserrat', sans-serif;
-  font-size:17px;
+  font-size:15px;
 }
 
 a{
@@ -47,7 +47,7 @@ hr{
 
 
 header{
-  height:8cm;
+  height:9cm;
   padding:0 5cm;
   position:running(header);
   background-size: cover;
