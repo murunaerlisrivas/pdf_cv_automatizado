@@ -50,8 +50,7 @@ header{
   height:8cm;
   padding:0 5cm;
   position:running(header);
-  background-image:url('Header-docs.png');
-  background-size: cover; /* Ajusta la imagen para cubrir el área */
+  background-size: cover;
 }
 
 .w100{
