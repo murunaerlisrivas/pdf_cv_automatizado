@@ -96,6 +96,7 @@ justify-content: center;
   align-content: center;
   text-align: center;
   line-height: 10px;
+  margin: 0;
 }
 .text_escala{
   display: flex;
@@ -110,22 +111,23 @@ justify-content: center;
   width: 100%;
   margin: 0 auto;
   border-collapse: collapse;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
+  font-family:'Montserrat', sans-serif;
+  font-size:12px;
 }
 
 .feedbackTable th, .feedbackTable td {
-  border: 1px solid #1a1919;
+  border: 0.5px solid #1a1919;
   padding: 10px;
 }
 .colorTable1{
-  background-color: #9fd6f9;
-  width: 30%;
+  background-color: #bad3f7;
+  width: 40%;
   text-align: left;
 }
 .colorTable2{
-  background-color: #9fd6f9;
-  width: 70%;
+  background-color: #bad3f7;
+  width: 60%;
   text-align: center;
 }
 
@@ -153,9 +155,9 @@ justify-content: center;
   align-items: center;
   color: white;
   font-weight: bold;
-  border-top: 1px solid #090909;
-  border-left: 1px solid #090909;
-  border-bottom: 1px solid #090909;
+  border-top: 0.5px solid #090909;
+  border-left: 0.5px solid #090909;
+  border-bottom: 0.5px solid #090909;
 }
 .box-10 {
   width: 58px;
@@ -165,13 +167,13 @@ justify-content: center;
   align-items: center;
   color: white;
   font-weight: bold;
-  border: 1px solid #090909;
+  border: 0.5px solid #090909;
 }
 
 .descriptor{
   padding-top: 0;
   margin-top: 0;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .skills{
