@@ -8,7 +8,7 @@
   --header-bg-color: #B8E6F1;
   --footer-bg-color: #BFC0C3;
   --table-img-bg-color: #BFC0C3;
-  --gap-size: 15px;
+  --gap-size: 10px;
 }
 
 @page{
@@ -24,6 +24,7 @@
 * {
   box-sizing: border-box;
 }
+
 
 body{
   margin:0;
@@ -84,7 +85,6 @@ justify-content: center;
   justify-content: center;
   align-content: center;
   text-align: center;
-  margin-top: 10px;
   padding-bottom: 0;
 }
 .section_escala{
