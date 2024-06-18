@@ -197,3 +197,7 @@ justify-content: center;
 .li-inactive3{
   display: none;
 }
+
+.feedback-texto{
+  text-align: justify
+}
