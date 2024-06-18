@@ -27,7 +27,8 @@
 
 body{
   margin:0;
-  padding:0cm 1cm;
+  margin-top: 0;
+  padding:0;
   color:var(--font-color);
   font-family:'Montserrat', sans-serif;
   font-size:15px;
@@ -48,7 +49,8 @@ hr{
 
 header{
   height:9cm;
-  padding:0 5cm;
+  padding:0;
+  margin: 0;
   position:running(header);
   background-size: cover;
 }
@@ -82,7 +84,7 @@ justify-content: center;
   justify-content: center;
   align-content: center;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 10px;
   padding-bottom: 0;
 }
 .section_escala{
@@ -107,7 +109,7 @@ justify-content: center;
   margin: 0 auto;
   border-collapse: collapse;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .feedbackTable th, .feedbackTable td {
@@ -142,7 +144,7 @@ justify-content: center;
 }
 
 .box {
-  width: 90px;
+  width: 100px;
   height: 40px;
   display: flex;
   justify-content: center;
