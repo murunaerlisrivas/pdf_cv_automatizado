@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const skillsActive = document.querySelector('.skills-active');
     const s1 = document.getElementById('s1');
     const s2 = document.getElementById('s2');
-    const s3 = document.getElementById('s3');
 
     let allSpansEmpty = true;
 
@@ -19,14 +18,6 @@ document.addEventListener('DOMContentLoaded', function() {
         const li2 = document.querySelector('.li-active2');
         li2.classList.remove('li-active2');
         li2.classList.add('li-inactive2');
-    } else {
-        allSpansEmpty = false;
-    }
-
-    if (s3.textContent.trim() === "") {
-        const li3 = document.querySelector('.li-active3');
-        li3.classList.remove('li-active3');
-        li3.classList.add('li-inactive3');
     } else {
         allSpansEmpty = false;
     }
