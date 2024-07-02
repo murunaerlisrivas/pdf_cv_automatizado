@@ -15,9 +15,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     if (s2.textContent.trim() === "") {
-        const li2 = document.querySelector('.li-active2');
-        li2.classList.remove('li-active2');
-        li2.classList.add('li-inactive2');
+        const li2 = document.querySelector('.li-active1');
+        li2.classList.remove('li-active1');
+        li2.classList.add('li-inactive1');
     } else {
         allSpansEmpty = false;
     }
