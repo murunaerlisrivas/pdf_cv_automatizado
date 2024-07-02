@@ -3,27 +3,16 @@ document.addEventListener('DOMContentLoaded', function() {
     const s1 = document.getElementById('s1');
     const s2 = document.getElementById('s2');
 
-    let allSpansEmpty = true;
+    const isS1Empty = s1.textContent.trim() === "";
+    const isS2Empty = s2.textContent.trim() === "";
 
-    // Check each span and change class of li elements if empty
-    if (s1.textContent.trim() === "") {
-        const li1 = document.querySelector('.li-active1');
-        li1.classList.remove('li-active1');
-        li1.classList.add('li-inactive1');
-    } else {
-        allSpansEmpty = false;
+    if (isS2Empty) {
+        const li2 = document.querySelector('.coma');
+        li2.classList.remove('coma');
+        li2.classList.add('coma-inact');
     }
 
-    if (s2.textContent.trim() === "") {
-        const li2 = document.querySelector('.li-active1');
-        li2.classList.remove('li-active1');
-        li2.classList.add('li-inactive1');
-    } else {
-        allSpansEmpty = false;
-    }
-
-    // Change skills-active to skills-inactive if all spans are empty
-    if (allSpansEmpty) {
+    if (isS1Empty && isS2Empty) {
         skillsActive.classList.remove('skills-active');
         skillsActive.classList.add('skills-inactive');
     }
