@@ -6,6 +6,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const isS1Empty = s1.textContent.trim() === "";
     const isS2Empty = s2.textContent.trim() === "";
 
+    if (isS1Empty && isS2Empty) {
+        skillsActive.classList.remove('skills-active');
+        skillsActive.classList.add('skills-inactive');
+    }
     if (isS1Empty) {
         const li1 = document.querySelector('.coma');
         li1.classList.remove('coma');
@@ -15,10 +19,5 @@ document.addEventListener('DOMContentLoaded', function() {
         const li2 = document.querySelector('.coma');
         li2.classList.remove('coma');
         li2.classList.add('coma-inact');
-    }
-
-    if (isS1Empty && isS2Empty) {
-        skillsActive.classList.remove('skills-active');
-        skillsActive.classList.add('skills-inactive');
     }
 });
